@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity()
         AlertDialog.Builder(this)
             .setTitle(title)
             .setMessage(message)
-            .setPositiveButton("Reset")
+            .setPositiveButton("Play again")
             { _,_ ->
                 resetBoard()
             }
